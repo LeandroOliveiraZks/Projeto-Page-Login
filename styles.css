@@ -80,6 +80,20 @@ header {
     transition: .7s;
 }
 
+.botaoResponsivo {
+    width: 130px;
+    height: 50px;
+    display: none;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    transition: .7s;
+}
+
 .menu .botaoLogin:hover {
     background-color: white;
     color: #162938
@@ -266,9 +280,7 @@ header {
     html {
        background-image: url('background.jpg');
     }
+    a {
+        display: none;
+    }
   }
-
-
-
-
-
