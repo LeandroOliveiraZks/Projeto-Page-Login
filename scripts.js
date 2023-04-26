@@ -4,6 +4,7 @@ const registroLink= document.querySelector ('.resgistro-link');
 const btnMenu= document.querySelector ('.botaoLogin');
 const iconeClose= document.querySelector ('.icon-close');
 
+
 registroLink.addEventListener('click', () => {
     wrapper.classList.add('active');
 });
@@ -20,7 +21,6 @@ btnMenu.addEventListener('click', () => {
 iconeClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
-
 
 
 
